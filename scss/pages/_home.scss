@@ -5,7 +5,11 @@
   padding: 10rem 0;
   &__wrapper {
     @include centerAll;
+    
     flex-direction: column;
+    // @include mediaQuery(520px){
+
+    // }
     h4 {
       color: $clr--secondary;
       letter-spacing: 0.5rem;
@@ -30,6 +34,9 @@
   &__wrapper {
     @include unevenGrid(25rem 25rem 25rem, 3rem);
     place-content: center;
+    @include mediaQuery(520px) {
+      grid-template-columns: 1fr;
+    }
   }
   &__card {
     padding: 2rem 1rem;
@@ -76,21 +83,36 @@
   &__wrapper {
     @include evenGrid(2, 1rem);
     justify-items: center;
+    @include mediaQuery(520px) {
+      grid-template-columns: 1fr;
+    }
   }
 }
 
 .homeBooking {
+  @include mediaQuery(520px) {
+    padding: 2rem 0;
+  }
+
   &__wrapper {
     @include centerAll;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
       url(../../IMG/book\ a\ table\ bg.jpg);
     @include bgSize;
     height: 120vh;
+    @include mediaQuery(520px) {
+      background-image: none;
+      height: auto;
+    }
   }
   &__table {
     padding: 5rem;
     width: 60rem;
     height: 45rem;
+    @include mediaQuery(520px) {
+      width: 100%;
+      padding: 0;
+    }
     h4 {
       font-size: 2rem;
     }
@@ -124,18 +146,57 @@
   }
 }
 
+.homeTest {
+  &__wrapper {
+    @include centerAll;
+    max-width: 70rem;
+    margin: 0 auto;
+  }
+  &__client {
+    i {
+      font-size: 2rem;
+      margin-bottom: 2rem;
+      border: 2px solid $clr--secondary;
+      padding: 1.5rem;
+      border-radius: 50%;
+    }
+    p {
+      margin-bottom: 1rem;
+    }
+    h4 {
+      font-size: 1.5rem;
+      font-weight: 400;
+      color: $clr--secondary;
+    }
+    small {
+      font-weight: 600;
+    }
+  }
+}
+
 .homeVideo {
+  @include mediaQuery(520px){
+    padding: 2rem 0;
+  }
   padding: 5rem 0;
   &__wrapper {
     @include centerAll;
+    iframe{
+      @include mediaQuery(520px){
+        height: 300px;
+      }
+    }
   }
 }
 
 .homeBlog {
   &__wrapper {
-    @include unevenGrid(25rem 25rem 25rem, 3rem);
+    @include unevenGrid(25rem 25rem 25rem, 1rem);
     place-content: center;
   }
+  // &__title {
+
+  // }
   &__card {
     padding: 2rem 1rem;
 

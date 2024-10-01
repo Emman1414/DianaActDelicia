@@ -10,7 +10,21 @@
   box-shadow: rgba(227, 49, 10, 0.1) 0px 4px 12px;
   &__wrapper {
     @include between;
+    @include mediaQuery(520px) {
+      display: flex;
+    }
   }
+  // header
+  @include mediaQuery(520px) {
+    position: fixed;
+    width: 100%;
+    img {
+      width: 8rem;
+    }
+  }
+
+  // OK DESU
+
   &__nav {
     display: flex;
     gap: 2rem;
@@ -22,9 +36,81 @@
         color: $clr--secondary;
       }
     }
+    @include mediaQuery(520px) {
+      position: fixed;
+      flex-direction: column;
+      top: 0;
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+      background-color: $clr--light;
+      width: 100%;
+      height: 100vh;
+      margin-top: 25rem;
+      transform: translateY(-14rem);
+      z-index: 99;
+      right: -100%;
+      transition: all 0.5s ease;
+    }
   }
+
+  // LOGO
   &__logo {
     width: 10rem;
     height: 3rem;
   }
+}
+.header__wrapper {
+  @include mediaQuery(520px) {
+    display: flex;
+  }
+}
+
+// OK DESU
+
+// RESPONSIVE FOR TOGGLE MENU
+
+.header .toggle__menu span {
+  background-color: $clr--light;
+  width: 2.5rem;
+  height: 0.4rem;
+  display: block;
+  border: 2px solid $clr--light;
+  border-radius: 1rem;
+  transition: all ease 0.5s;
+  .toggle__menu.open span:first-child {
+  @include mediaQuery(520px) {
+    transform: translate(0, 10px) rotate(225deg);
+    transition: all ease 0.5s;
+  }
+}
+}
+.header .toggle__menu {
+  display: none;
+  @include mediaQuery(520px) {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+}
+.toggle__menu {
+  @include mediaQuery(520px) {
+  }
+}
+
+.toggle__menu.open span:first-child {
+  @include mediaQuery(520px) {
+    transform: translate(0, 10px) rotate(225deg);
+    transition: all ease 0.5s;
+  }
+}
+
+.toggle__menu.open span:nth-child(2) {
+  opacity: 0;
+  transition: all 0.5 ease;
+}
+
+.toggle__menu.open span:last-child {
+  transform: translate(0, -11.5px) rotate(-225deg);
+  transition: all 0.5s ease;
 }
