@@ -31,7 +31,7 @@ $alignments: center, left, right, justify;
 @for $i from 0 through 15 {
   // margin
   .m--#{$i} {
-    margin-bottom: $i + rem;
+    margin: $i + rem;
   }
   .mb--#{$i} {
     margin-bottom: $i + rem;
@@ -47,10 +47,13 @@ $alignments: center, left, right, justify;
     margin-right: $i + rem;
   }
   .my--#{$i} {
-    margin: $i + rem;
+    margin: $i + rem 0;
   }
   .mx--#{$i} {
-    margin: $i + rem 0;
+    margin: 0 $i + rem;
+  }
+  .p--#{$i} {
+    padding: $i + rem;
   }
   .pb--#{$i} {
     padding-bottom: $i + rem;
@@ -65,9 +68,9 @@ $alignments: center, left, right, justify;
     padding-right: $i + rem;
   }
   .py--#{$i} {
-    padding: $i + rem;
+    padding: $i + rem 0;
   }
   .px--#{$i} {
-    padding: 0 $i + rem 0;
+    padding: 0 $i + rem;
   }
 }

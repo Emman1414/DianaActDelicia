@@ -3,31 +3,44 @@
 
 .contacts {
   &__wrapper {
- 
     display: flex;
     flex-direction: column;
     text-align: center;
     align-items: center;
     place-content: center;
     height: 150vh;
+    @include mediaQuery(520px) {
+      display: flex;
+      flex-direction: column-reverse;
+      padding-top: 6rem;
+    }
   }
   .title {
-    margin:2rem;
+    margin: 2rem;
     display: flex;
     flex-direction: row;
     gap: 3rem;
     padding: 2rem 1rem;
-    i{
-        color: $clr--secondary;
-        margin-bottom: 1rem;
+    @include mediaQuery(520px) {
+      justify-content: center;
+      flex-direction: column;
+      gap: 1rem;
     }
-    
+    i {
+      color: $clr--secondary;
+      margin-bottom: 1rem;
+    }
   }
 
   &__map {
     margin: 2rem;
     iframe {
       border-radius: 2rem;
+      transform: translateY(6rem);
+    }
+    @include mediaQuery(520px) {
+      display: none;
+      padding: 1rem;
     }
   }
 
@@ -35,6 +48,11 @@
     padding: 5rem;
     width: 70rem;
     height: 50rem;
+    @include mediaQuery(520px) {
+      width: 100%;
+      padding: 0;
+    }
+
     ul {
       flex-direction: column;
     }

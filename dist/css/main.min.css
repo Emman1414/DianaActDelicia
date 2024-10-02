@@ -48,7 +48,7 @@
 }
 
 .m--0 {
-  margin-bottom: 0rem;
+  margin: 0rem;
 }
 
 .mb--0 {
@@ -68,11 +68,15 @@
 }
 
 .my--0 {
-  margin: 0rem;
+  margin: 0rem 0;
 }
 
 .mx--0 {
-  margin: 0rem 0;
+  margin: 0 0rem;
+}
+
+.p--0 {
+  padding: 0rem;
 }
 
 .pb--0 {
@@ -92,15 +96,15 @@
 }
 
 .py--0 {
-  padding: 0rem;
+  padding: 0rem 0;
 }
 
 .px--0 {
-  padding: 0 0rem 0;
+  padding: 0 0rem;
 }
 
 .m--1 {
-  margin-bottom: 1rem;
+  margin: 1rem;
 }
 
 .mb--1 {
@@ -120,11 +124,15 @@
 }
 
 .my--1 {
-  margin: 1rem;
+  margin: 1rem 0;
 }
 
 .mx--1 {
-  margin: 1rem 0;
+  margin: 0 1rem;
+}
+
+.p--1 {
+  padding: 1rem;
 }
 
 .pb--1 {
@@ -144,15 +152,15 @@
 }
 
 .py--1 {
-  padding: 1rem;
+  padding: 1rem 0;
 }
 
 .px--1 {
-  padding: 0 1rem 0;
+  padding: 0 1rem;
 }
 
 .m--2 {
-  margin-bottom: 2rem;
+  margin: 2rem;
 }
 
 .mb--2 {
@@ -172,11 +180,15 @@
 }
 
 .my--2 {
-  margin: 2rem;
+  margin: 2rem 0;
 }
 
 .mx--2 {
-  margin: 2rem 0;
+  margin: 0 2rem;
+}
+
+.p--2 {
+  padding: 2rem;
 }
 
 .pb--2 {
@@ -196,15 +208,15 @@
 }
 
 .py--2 {
-  padding: 2rem;
+  padding: 2rem 0;
 }
 
 .px--2 {
-  padding: 0 2rem 0;
+  padding: 0 2rem;
 }
 
 .m--3 {
-  margin-bottom: 3rem;
+  margin: 3rem;
 }
 
 .mb--3 {
@@ -224,11 +236,15 @@
 }
 
 .my--3 {
-  margin: 3rem;
+  margin: 3rem 0;
 }
 
 .mx--3 {
-  margin: 3rem 0;
+  margin: 0 3rem;
+}
+
+.p--3 {
+  padding: 3rem;
 }
 
 .pb--3 {
@@ -248,15 +264,15 @@
 }
 
 .py--3 {
-  padding: 3rem;
+  padding: 3rem 0;
 }
 
 .px--3 {
-  padding: 0 3rem 0;
+  padding: 0 3rem;
 }
 
 .m--4 {
-  margin-bottom: 4rem;
+  margin: 4rem;
 }
 
 .mb--4 {
@@ -276,11 +292,15 @@
 }
 
 .my--4 {
-  margin: 4rem;
+  margin: 4rem 0;
 }
 
 .mx--4 {
-  margin: 4rem 0;
+  margin: 0 4rem;
+}
+
+.p--4 {
+  padding: 4rem;
 }
 
 .pb--4 {
@@ -300,15 +320,15 @@
 }
 
 .py--4 {
-  padding: 4rem;
+  padding: 4rem 0;
 }
 
 .px--4 {
-  padding: 0 4rem 0;
+  padding: 0 4rem;
 }
 
 .m--5 {
-  margin-bottom: 5rem;
+  margin: 5rem;
 }
 
 .mb--5 {
@@ -328,11 +348,15 @@
 }
 
 .my--5 {
-  margin: 5rem;
+  margin: 5rem 0;
 }
 
 .mx--5 {
-  margin: 5rem 0;
+  margin: 0 5rem;
+}
+
+.p--5 {
+  padding: 5rem;
 }
 
 .pb--5 {
@@ -352,15 +376,15 @@
 }
 
 .py--5 {
-  padding: 5rem;
+  padding: 5rem 0;
 }
 
 .px--5 {
-  padding: 0 5rem 0;
+  padding: 0 5rem;
 }
 
 .m--6 {
-  margin-bottom: 6rem;
+  margin: 6rem;
 }
 
 .mb--6 {
@@ -380,11 +404,15 @@
 }
 
 .my--6 {
-  margin: 6rem;
+  margin: 6rem 0;
 }
 
 .mx--6 {
-  margin: 6rem 0;
+  margin: 0 6rem;
+}
+
+.p--6 {
+  padding: 6rem;
 }
 
 .pb--6 {
@@ -404,15 +432,15 @@
 }
 
 .py--6 {
-  padding: 6rem;
+  padding: 6rem 0;
 }
 
 .px--6 {
-  padding: 0 6rem 0;
+  padding: 0 6rem;
 }
 
 .m--7 {
-  margin-bottom: 7rem;
+  margin: 7rem;
 }
 
 .mb--7 {
@@ -432,11 +460,15 @@
 }
 
 .my--7 {
-  margin: 7rem;
+  margin: 7rem 0;
 }
 
 .mx--7 {
-  margin: 7rem 0;
+  margin: 0 7rem;
+}
+
+.p--7 {
+  padding: 7rem;
 }
 
 .pb--7 {
@@ -456,15 +488,15 @@
 }
 
 .py--7 {
-  padding: 7rem;
+  padding: 7rem 0;
 }
 
 .px--7 {
-  padding: 0 7rem 0;
+  padding: 0 7rem;
 }
 
 .m--8 {
-  margin-bottom: 8rem;
+  margin: 8rem;
 }
 
 .mb--8 {
@@ -484,11 +516,15 @@
 }
 
 .my--8 {
-  margin: 8rem;
+  margin: 8rem 0;
 }
 
 .mx--8 {
-  margin: 8rem 0;
+  margin: 0 8rem;
+}
+
+.p--8 {
+  padding: 8rem;
 }
 
 .pb--8 {
@@ -508,15 +544,15 @@
 }
 
 .py--8 {
-  padding: 8rem;
+  padding: 8rem 0;
 }
 
 .px--8 {
-  padding: 0 8rem 0;
+  padding: 0 8rem;
 }
 
 .m--9 {
-  margin-bottom: 9rem;
+  margin: 9rem;
 }
 
 .mb--9 {
@@ -536,11 +572,15 @@
 }
 
 .my--9 {
-  margin: 9rem;
+  margin: 9rem 0;
 }
 
 .mx--9 {
-  margin: 9rem 0;
+  margin: 0 9rem;
+}
+
+.p--9 {
+  padding: 9rem;
 }
 
 .pb--9 {
@@ -560,15 +600,15 @@
 }
 
 .py--9 {
-  padding: 9rem;
+  padding: 9rem 0;
 }
 
 .px--9 {
-  padding: 0 9rem 0;
+  padding: 0 9rem;
 }
 
 .m--10 {
-  margin-bottom: 10rem;
+  margin: 10rem;
 }
 
 .mb--10 {
@@ -588,11 +628,15 @@
 }
 
 .my--10 {
-  margin: 10rem;
+  margin: 10rem 0;
 }
 
 .mx--10 {
-  margin: 10rem 0;
+  margin: 0 10rem;
+}
+
+.p--10 {
+  padding: 10rem;
 }
 
 .pb--10 {
@@ -612,15 +656,15 @@
 }
 
 .py--10 {
-  padding: 10rem;
+  padding: 10rem 0;
 }
 
 .px--10 {
-  padding: 0 10rem 0;
+  padding: 0 10rem;
 }
 
 .m--11 {
-  margin-bottom: 11rem;
+  margin: 11rem;
 }
 
 .mb--11 {
@@ -640,11 +684,15 @@
 }
 
 .my--11 {
-  margin: 11rem;
+  margin: 11rem 0;
 }
 
 .mx--11 {
-  margin: 11rem 0;
+  margin: 0 11rem;
+}
+
+.p--11 {
+  padding: 11rem;
 }
 
 .pb--11 {
@@ -664,15 +712,15 @@
 }
 
 .py--11 {
-  padding: 11rem;
+  padding: 11rem 0;
 }
 
 .px--11 {
-  padding: 0 11rem 0;
+  padding: 0 11rem;
 }
 
 .m--12 {
-  margin-bottom: 12rem;
+  margin: 12rem;
 }
 
 .mb--12 {
@@ -692,11 +740,15 @@
 }
 
 .my--12 {
-  margin: 12rem;
+  margin: 12rem 0;
 }
 
 .mx--12 {
-  margin: 12rem 0;
+  margin: 0 12rem;
+}
+
+.p--12 {
+  padding: 12rem;
 }
 
 .pb--12 {
@@ -716,15 +768,15 @@
 }
 
 .py--12 {
-  padding: 12rem;
+  padding: 12rem 0;
 }
 
 .px--12 {
-  padding: 0 12rem 0;
+  padding: 0 12rem;
 }
 
 .m--13 {
-  margin-bottom: 13rem;
+  margin: 13rem;
 }
 
 .mb--13 {
@@ -744,11 +796,15 @@
 }
 
 .my--13 {
-  margin: 13rem;
+  margin: 13rem 0;
 }
 
 .mx--13 {
-  margin: 13rem 0;
+  margin: 0 13rem;
+}
+
+.p--13 {
+  padding: 13rem;
 }
 
 .pb--13 {
@@ -768,15 +824,15 @@
 }
 
 .py--13 {
-  padding: 13rem;
+  padding: 13rem 0;
 }
 
 .px--13 {
-  padding: 0 13rem 0;
+  padding: 0 13rem;
 }
 
 .m--14 {
-  margin-bottom: 14rem;
+  margin: 14rem;
 }
 
 .mb--14 {
@@ -796,11 +852,15 @@
 }
 
 .my--14 {
-  margin: 14rem;
+  margin: 14rem 0;
 }
 
 .mx--14 {
-  margin: 14rem 0;
+  margin: 0 14rem;
+}
+
+.p--14 {
+  padding: 14rem;
 }
 
 .pb--14 {
@@ -820,15 +880,15 @@
 }
 
 .py--14 {
-  padding: 14rem;
+  padding: 14rem 0;
 }
 
 .px--14 {
-  padding: 0 14rem 0;
+  padding: 0 14rem;
 }
 
 .m--15 {
-  margin-bottom: 15rem;
+  margin: 15rem;
 }
 
 .mb--15 {
@@ -848,11 +908,15 @@
 }
 
 .my--15 {
-  margin: 15rem;
+  margin: 15rem 0;
 }
 
 .mx--15 {
-  margin: 15rem 0;
+  margin: 0 15rem;
+}
+
+.p--15 {
+  padding: 15rem;
 }
 
 .pb--15 {
@@ -872,11 +936,11 @@
 }
 
 .py--15 {
-  padding: 15rem;
+  padding: 15rem 0;
 }
 
 .px--15 {
-  padding: 0 15rem 0;
+  padding: 0 15rem;
 }
 
 html {
@@ -1176,6 +1240,7 @@ img {
 @media screen and (max-width: 520px) {
   .footer__wrapper {
     flex-direction: column;
+    gap: 1rem;
   }
 }
 .footer img {
@@ -1196,6 +1261,7 @@ img {
   color: #dd1d01;
 }
 .footer__subscribe {
+  mask-border-mode: 1rem;
   position: relative;
 }
 .footer__subscribe input {
@@ -1225,7 +1291,7 @@ img {
 .footer__social a {
   font-size: 1.3rem;
 }
-.footer--details {
+.footer__details {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -1514,7 +1580,7 @@ img {
 }
 @media screen and (max-width: 520px) {
   .menuBeef img {
-    width: 30rem;
+    max-width: 100%;
     height: 10rem;
   }
 }
@@ -1557,7 +1623,7 @@ img {
 }
 @media screen and (max-width: 520px) {
   .menuChicken img {
-    width: 30rem;
+    max-width: 100%;
     height: 10rem;
   }
 }
@@ -1600,7 +1666,7 @@ img {
 }
 @media screen and (max-width: 520px) {
   .menuDessert img {
-    width: 30rem;
+    max-width: 100%;
     height: 10rem;
   }
 }
@@ -1611,6 +1677,11 @@ img {
   gap: 3rem;
   margin: 3rem;
   gap: 2rem;
+}
+@media screen and (max-width: 520px) {
+  .ourChefs__wrapper {
+    grid-template-columns: 1fr;
+  }
 }
 .ourChefs .title {
   display: flex;
@@ -1641,10 +1712,22 @@ img {
   grid-template-columns: repeat(2, 1fr);
   gap: 1fr;
 }
+@media screen and (max-width: 520px) {
+  .productSection__wrapper {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    margin-bottom: 12em;
+  }
+}
 .productSection .cardPass {
   display: grid;
   grid-template-columns: 15rem 15rem 15rem;
   gap: 3rem;
+}
+@media screen and (max-width: 520px) {
+  .productSection .cardPass {
+    grid-template-columns: 1fr;
+  }
 }
 .productSection__card {
   padding: 2rem 1rem;
@@ -1700,12 +1783,26 @@ img {
   place-content: center;
   height: 150vh;
 }
+@media screen and (max-width: 520px) {
+  .contacts__wrapper {
+    display: flex;
+    flex-direction: column-reverse;
+    padding-top: 6rem;
+  }
+}
 .contacts .title {
   margin: 2rem;
   display: flex;
   flex-direction: row;
   gap: 3rem;
   padding: 2rem 1rem;
+}
+@media screen and (max-width: 520px) {
+  .contacts .title {
+    justify-content: center;
+    flex-direction: column;
+    gap: 1rem;
+  }
 }
 .contacts .title i {
   color: #dd1d01;
@@ -1716,11 +1813,24 @@ img {
 }
 .contacts__map iframe {
   border-radius: 2rem;
+  transform: translateY(6rem);
+}
+@media screen and (max-width: 520px) {
+  .contacts__map {
+    display: none;
+    padding: 1rem;
+  }
 }
 .contacts__txtbs {
   padding: 5rem;
   width: 70rem;
   height: 50rem;
+}
+@media screen and (max-width: 520px) {
+  .contacts__txtbs {
+    width: 100%;
+    padding: 0;
+  }
 }
 .contacts__txtbs ul {
   flex-direction: column;
@@ -1781,20 +1891,31 @@ img {
 .blog__flashcards {
   padding: 2rem 1rem;
 }
-.blog__flashcards img {
+@media screen and (max-width: 520px) {
+  .blog__flashcards {
+    padding: 1rem;
+  }
+}
+.blog img {
   width: 50rem;
   height: 25rem;
   border-radius: 2rem;
 }
-.blog__flashcards h2 {
+@media screen and (max-width: 520px) {
+  .blog img {
+    height: 10rem;
+    width: 30rem;
+  }
+}
+.blog h2 {
   padding-top: 1rem;
   font-size: 2rem;
 }
-.blog__flashcards p {
+.blog p {
   padding-top: 0.5rem;
   font-size: 1rem;
 }
-.blog__flashcards--details a {
+.blog--details a {
   margin: 1rem;
 }
 .blog__btn {

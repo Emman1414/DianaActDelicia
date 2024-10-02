@@ -6,6 +6,9 @@
     @include evenGrid(4, 3rem);
     margin: 3rem;
     gap: 2rem;
+    @include mediaQuery(520px) {
+      grid-template-columns: 1fr;
+    }
   }
   .title {
     display: flex;
